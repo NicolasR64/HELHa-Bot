@@ -1,0 +1,7 @@
+# packages
+node_modules
+
+# env var
+.env
+.env.vault
+config.json
