@@ -1,7 +1,12 @@
+// Node.js
 const fs = require('node:fs');
 const path = require('node:path');
+
+// Discord.js
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+
+// Dotenv
 const dotenv = require('dotenv');
 dotenv.config({ path: '.env.vault' });
 
@@ -39,5 +44,4 @@ for (const file of eventFiles) {
 		client.on(event.name, (...args) => event.execute(...args));
 	}
 }
-
 client.login(process.env.token);
