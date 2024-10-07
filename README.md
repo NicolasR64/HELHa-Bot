@@ -15,11 +15,6 @@ Engaged Community: Provide a dynamic and engaging Discord space for HELHa studen
 Customization: Allow users to add features specific to their needs.
 Open Collaboration: Encourage collaboration by enabling each student to contribute.
 
-**How to Contribute:**
-1. Clone the repository on GitHub.
-2. Add features, fixes, or enhancements.
-3. Submit pull requests for review and integration.
-
 Join us in creating an interactive and customizable Discord space for the HELHa student community with HELHa Bot!
 
 ---
@@ -32,11 +27,6 @@ Le projet "HELHa Bot" vise à créer un bot Discord communautaire dédié aux é
 - **Communauté Engagée:** Fournir un espace Discord dynamique et engageant pour les étudiants de la HELHa.
 - **Personnalisation:** Permettre aux utilisateurs d'ajouter des fonctionnalités spécifiques à leurs besoins.
 - **Collaboration Ouverte:** Encourager la collaboration en permettant à chaque étudiant d'apporter sa contribution.
-
-**Comment Contribuer:**
-1. Cloner le référentiel (repository) sur GitHub.
-2. Ajouter des fonctionnalités, des correctifs ou des améliorations.
-3. Soumettre des demandes de tirage (pull requests) pour l'examen et l'intégration.
 
 Rejoignez-nous dans la création d'un espace Discord interactif et personnalisable pour la communauté étudiante de la HELHa grâce à HELHa Bot!
 
