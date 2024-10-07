@@ -4,7 +4,7 @@ const path = require('node:path');
 
 // Discord.js
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers] });
 
 // Dotenv
 const dotenv = require('dotenv');
