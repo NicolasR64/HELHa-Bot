@@ -1,5 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
+// Command use to explain how to contribute to the bot.
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('tuto')
