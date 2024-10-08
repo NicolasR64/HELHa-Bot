@@ -1,4 +1,6 @@
 const { SlashCommandBuilder } = require('discord.js');
+const Categories = require('../../utils/categories');
+const Statuses = require('../../utils/statuses');
 
 // Command use to explain how to contribute to the bot.
 module.exports = {
@@ -28,6 +30,9 @@ module.exports = {
 			option.setName('date')
 				.setDescription('Specify a date (YYYY-MM-DD).')
 				.setRequired(false)),
+
+	category: Categories.CALENDAR,
+	status: Statuses.IN_PROGRESS,
 
 	async execute(interaction) {
 		// Get options value

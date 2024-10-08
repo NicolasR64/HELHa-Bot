@@ -1,12 +1,18 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 // Dotenv
 const dotenv = require('dotenv');
+const Categories = require('../../utils/categories');
+const Statuses = require('../../utils/statuses');
 dotenv.config({ path: '.env.vault' });
 
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('server')
 		.setDescription('Provides detailed server information.'),
+
+	category: Categories.INFORMATION,
+	status: Statuses.COMPLETED,
+
 	async execute(interaction) {
 		const { guild } = interaction;
 

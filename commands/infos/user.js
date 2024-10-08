@@ -1,6 +1,8 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 // Dotenv
 const dotenv = require('dotenv');
+const Categories = require('../../utils/categories');
+const Statuses = require('../../utils/statuses');
 dotenv.config({ path: '.env.vault' });
 
 module.exports = {
@@ -10,6 +12,10 @@ module.exports = {
 		.addUserOption(option =>
 			option.setName('target')
 				.setDescription('Select a user to get information about.')),
+
+	category: Categories.INFORMATION,
+	status: Statuses.COMPLETED,
+
 	async execute(interaction) {
 		// Get user data
 		const targetUser = interaction.options.getUser('target') || interaction.user;
